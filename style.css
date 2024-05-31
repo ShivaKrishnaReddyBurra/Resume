@@ -5,26 +5,26 @@ body {
     margin: auto;
 }
 h1 {
-    font-size: 2em;
+    font-size: 3.5em;
     letter-spacing: .3em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 2em;
     padding-bottom: 1em;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 1.5em;
     padding-bottom: 1em;
 }
 
 
 main { 
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 44% 56%;
     margin-top: 3em;
 }
 
@@ -42,14 +42,14 @@ i {
 }
 
 p {
-   
+    font-size: 1.5em;
     margin: .2em auto
 }
 
 hr {
     border: none;
     background-color: lightgray;
-    height: 1px;
+    height: 2px;
 }
 
 h1, h2, h3 {
@@ -60,7 +60,8 @@ h1, h2, h3 {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
-@media (max-width: 560px) {
+
+@media screen and (max-width: 1000px) {
     main {
         display: block;
     }
